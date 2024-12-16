@@ -17,13 +17,13 @@ struct ContentView: View {
                     Text("Home")
                 }
                 .tag(0)
-            Text("Edit")
+            NotesView()
                 .tabItem {
                     Image(systemName: "pencil")
                     Text("Edit")
                 }
                 .tag(1)
-            Text("Music")
+            VoiceMemoView()
                 .tabItem {
                     Image(systemName: "waveform")
                     Text("Music")
